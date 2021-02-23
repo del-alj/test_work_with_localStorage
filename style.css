@@ -1,0 +1,97 @@
+:root {
+    --color1 : #FEF9E7;
+    --color2 : #FCF3CF;
+    --color3 : #F7DC6F;
+    --color4 : #F4D03F;
+    --color5 : #F1C40F;
+    --color6 : #B7950B;
+    --color7 : #000000;
+}
+
+
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color1);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 60px;
+    font-size: 30px;
+    color: var(--color7);
+    background-color: var(--color5);
+}
+
+main {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: var(--color2); */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    background-color: var(--color5);
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+button {
+    border: none;
+    width: max-content;
+    background-color: var(--color4);
+    padding: 10px;
+    border: 2px solid var(--color3);
+}
+
+#resulta {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    /* background-color: var(--color5); */
+}
+
+.inputs {
+    margin: 15px;
+}
+
+.instyle {
+    margin: 15px;
+    padding: 10px;
+}
+
+#listOfBook {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    /* width: 100vh; */
+    /* background-color: var(--color6); */
+}
+
+.bookClass {
+    margin: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: solid var(--color2);
+    width: 200px;
+    height: 250px;
+    background-color: var(--color5);
+}

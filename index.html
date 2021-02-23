@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Librery</title>
+    </head>
+    <body>
+        <header>
+            <h1>Library</h1>
+        </header>
+        <main>
+            <button type="button" id="clean">clear data</button>
+            <div class="inputs">
+                <form>
+                    <h1>The Book</h1>
+                    <input type="text" id="bname" class="instyle" placeholder="Name of book" required>
+                    <input type="text" id="author" class="instyle" placeholder="Name of author" required>
+                    <input type="number" id="npage" class="instyle" placeholder="Number of page" required>
+                    <input type="url" id="url" class="instyle" placeholder="link" required>
+                    <div>
+                        <label>Read ?</label>
+                        <input type="checkbox" id="check" class="instyle">
+                    </div>
+                    <button type="button" id="add">Add</button>
+                </form>
+            </div>
+            <div id="resulta">
+                <div id="listOfBook"></div>
+            </div>
+        </main>
+    </body>
+    <script src="script.js"></script> 
+</html>
